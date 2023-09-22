@@ -2,7 +2,7 @@
 pkgname=homeless
 pkgver=99999
 pkgrel=0
-_commit=ba538e94b6bd738a93b66fc19ef1ffe112757642
+_commit=7c737c6640d436ddd998a55790f4b245a7d58fdd
 pkgdesc="A sahibinden.com scraper bot for telegram written in C++"
 url="https://github.com/gAtrium/homeless"
 arch="all"
@@ -24,5 +24,5 @@ package() {
   make DESTDIR="$pkgdir" install
 }
 sha512sums="
-2da2286abc1fe0dbc111b563d3a885bd145be96113ffcf9a77424a70b87b68f9e690c63da33f951ee77de4120c2545188f94546244552c3974c65e5fae075ba4  homeless.tar.gz
+757f3dc288cc84db9cac5533dcf5c0300e63f2987433da889fcbbe3150d207f60eb3ebbb05420521bd9e1ca37fefacd093efe8567c082f66c0fea3450f460d7f  homeless.tar.gz
 "
